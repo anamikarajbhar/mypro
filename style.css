@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.season1,.season2,.season3,.season4,.season5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: pink;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px black;
+}
+.season1{
+    background-size: cover;
+    background-attachment:fixed ;
+    background-image:url(M1.jpg);
+    
+}
+.season2{
+    background-size: cover;
+    background-attachment:fixed ;
+    background-image:url(M2.jpg);
+
+}
+.season3{
+    background-size: cover;
+    background-attachment:fixed ;
+    background-image: url(M3.jpg);
+
+}
+.season4{
+    background-size: cover;
+    background-attachment:fixed ;
+    background-image:url(M4.jpg);
+
+}
+.season5{
+    background-size: cover;
+    background-attachment:fixed ;
+    background-image:url(M5.jpg);
+
+}
